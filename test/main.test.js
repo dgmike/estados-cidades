@@ -1,5 +1,5 @@
 const assert = require('assert');
-const cidadeEstados = require(__dirname + '/../cidades-estados.node.js');
+const cidadeEstados = require(__dirname + '/../estados-cidades.node.js');
 
 describe("main", function () {
   it("must test something", function () {
