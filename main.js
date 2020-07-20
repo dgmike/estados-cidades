@@ -1,10 +1,10 @@
 import * as estadosCidades from './lib/main.js';
 
-var estados = estadosCidades.estados();
-var codigoEstados = estadosCidades.estados('codigos');
-var cidades = estadosCidades.cidades();
-var cidadesOrdenadas = estadosCidades.cidades(false);
-var capitais = estadosCidades.capitais();
+const estados = estadosCidades.estados();
+const codigoEstados = estadosCidades.estados('codigos');
+const cidades = estadosCidades.cidades();
+const cidadesOrdenadas = estadosCidades.cidades(false);
+const capitais = estadosCidades.capitais();
 
 export {
     estados,
