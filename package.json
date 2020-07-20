@@ -1,13 +1,20 @@
 {
   "name": "estados-cidades",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estados e Cidades é uma biblioteca para preencher os campos de seleção de cidades e estados.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "compile": "rollup -c"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgmike/estados-cidades"
+  },
+  "keywords": [
+    "brasil",
+    "cidades-estados-js"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
