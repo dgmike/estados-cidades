@@ -1,8 +1,8 @@
-const assert = require('assert');
-const cidadeEstados = require(__dirname + '/../estados-cidades.node.js');
+import { strict as assert } from 'assert';
+import * as cidadesEstados from './../main.js';
 
 describe("main", function () {
   it("must test something", function () {
-    assert.equal(1, 1);
+    assert.equal(cidadesEstados.estados.length, 27);
   });
 });

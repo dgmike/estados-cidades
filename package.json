@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Estados e Cidades é uma biblioteca para preencher os campos de seleção de cidades e estados.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha",
     "compile": "rollup -c"
