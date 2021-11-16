@@ -1,5 +1,3 @@
-import { uglify } from "rollup-plugin-uglify";
-
 export default {
   inlineDynamicImports: true,
   input: "main.js",
@@ -16,7 +14,6 @@ export default {
       compact: true,
       sourcemap: true,
       sourcemapFile: "estados-cidades.min.js.map",
-      plugins: [uglify()]
     },
     {
       file: "estados-cidades.node.js",
